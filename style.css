@@ -1,0 +1,106 @@
+<style>
+		body{
+	        background-color:#DDDDFF;
+	        font-size:18px;
+	    }
+		h1 {
+	        color:#113333;
+	        font-style: times;
+		}
+		h2 {
+		    color:#162955;
+		}
+		h4 {
+		    font-size: 9px;
+		}
+		table {
+	        font-size:18px;
+	        background-color:AliceBlue;
+	    }
+	    
+	    table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        hr.large {
+            height: 3px;
+            border: none;
+            background-color: black;
+        }
+        td.high {
+            background-color:green;   
+	        color:black;
+        }
+        td.mid {
+            background-color:yellow;   
+	        color:black;
+        }
+        td.low {
+            background-color:red;   
+	        color:black;
+        }
+	     
+	    .centered-div {
+            width: 560px; 
+            height: 315px;
+            position: relative;
+            top: 0; right: 0;
+            bottom: 0; left: 0;
+            margin: auto;
+        }
+        .centered-div-text {
+            width: 560; 
+            height: 100px;
+            position: relative;
+            top: 0; right: 0;
+            bottom: 0; left: 0;
+            margin: auto;
+            text-align: center;
+        }
+        .centered-div-table {
+            width: 500px; 
+            height: 125px;
+            position: relative;
+            top: 0; right: 0;
+            bottom: 0; left: 0;
+            margin: auto;
+            text-align: center;
+        }
+        .centered {
+            text-align: center;
+        }
+		.endangered {
+		    color:red;
+		}
+		.threatened {
+		    color:OrangeRed;
+		}
+		.scientific-name {
+		    font-style:italic;
+		}
+		.pv-property {
+	        background-color:beige;   
+	        color:black;
+	        font-family: comic;
+	    }
+	    .unique {
+	        font-weight: bold;
+	    }
+	    
+	    
+		#image1 {
+		     border-style:solid;
+		}
+		#image2 {
+		     border-style:dotted;
+		}
+		#image3 {
+		     border-style:dashed;
+		}
+		#image4 {
+		     border-style:double;
+		}
+    	#favorite{
+	        background-color:green;
+	    }
+		</style>
