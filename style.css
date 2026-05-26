@@ -1,106 +1,84 @@
-<style>
-		body{
-	        background-color:#DDDDFF;
-	        font-size:18px;
-	    }
-		h1 {
-	        color:#113333;
-	        font-style: times;
-		}
-		h2 {
-		    color:#162955;
-		}
-		h4 {
-		    font-size: 9px;
-		}
-		table {
-	        font-size:18px;
-	        background-color:AliceBlue;
-	    }
-	    
-	    table.center {
-            margin-left: auto;
-            margin-right: auto;
-        }
-        hr.large {
-            height: 3px;
-            border: none;
-            background-color: black;
-        }
-        td.high {
-            background-color:green;   
-	        color:black;
-        }
-        td.mid {
-            background-color:yellow;   
-	        color:black;
-        }
-        td.low {
-            background-color:red;   
-	        color:black;
-        }
-	     
-	    .centered-div {
-            width: 560px; 
-            height: 315px;
-            position: relative;
-            top: 0; right: 0;
-            bottom: 0; left: 0;
-            margin: auto;
-        }
-        .centered-div-text {
-            width: 560; 
-            height: 100px;
-            position: relative;
-            top: 0; right: 0;
-            bottom: 0; left: 0;
-            margin: auto;
-            text-align: center;
-        }
-        .centered-div-table {
-            width: 500px; 
-            height: 125px;
-            position: relative;
-            top: 0; right: 0;
-            bottom: 0; left: 0;
-            margin: auto;
-            text-align: center;
-        }
-        .centered {
-            text-align: center;
-        }
-		.endangered {
-		    color:red;
-		}
-		.threatened {
-		    color:OrangeRed;
-		}
-		.scientific-name {
-		    font-style:italic;
-		}
-		.pv-property {
-	        background-color:beige;   
-	        color:black;
-	        font-family: comic;
-	    }
-	    .unique {
-	        font-weight: bold;
-	    }
-	    
-	    
-		#image1 {
-		     border-style:solid;
-		}
-		#image2 {
-		     border-style:dotted;
-		}
-		#image3 {
-		     border-style:dashed;
-		}
-		#image4 {
-		     border-style:double;
-		}
-    	#favorite{
-	        background-color:green;
-	    }
-		</style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #2c3e50;
+    margin-top: 25px;
+}
+
+p, ul {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+img {
+    display: block;
+    max-width: 200px;
+    height: auto;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.citation {
+    font-size: 12px;
+    color: #666;
+    word-break: break-all;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #0056b3;
+    color: white;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
