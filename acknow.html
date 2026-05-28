@@ -16,10 +16,22 @@
     <br>
     
     <div class="centered">
+		    <button id="btnreveal2" class="strdbtn">
+		        Click to reveal surprise (!)
+		    </button>
+	</div>
+    
+    <div class="linkgrid" ID="surprise" style="display: none">
+		    <h3 class="centered">
+		        Surprise!!! <br> The Scientific Research presentations will be held in the WCR at 4:00 today! Come see presentations on the latest autonomous lake research by Fernanda Paredes, and near-future predictions on solar energy using machine learning by me (Quinlan)!
+		    </h3>
+	</div>
+    
+    <div class="centered">
 		    <button id="btnreveal" class="strdbtn">
 		        Click to reveal choices
 		    </button>
-		</div>
+	</div>
     
      <div class="linkgrid" ID="linkGrid" style="display: none">
 		    <a href="index.html">
@@ -35,6 +47,14 @@
 	<script>
 		    document.getElementById('btnreveal').addEventListener('click', function() {
 		        var grid = document.getElementById('linkGrid');
+		        grid.style.display = "";
+		        this.style.display = "none";
+		    });
+	</script>
+	
+	<script>
+		    document.getElementById('btnreveal2').addEventListener('click', function() {
+		        var grid = document.getElementById('surprise');
 		        grid.style.display = "";
 		        this.style.display = "none";
 		    });
